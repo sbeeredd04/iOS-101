@@ -10,6 +10,10 @@
 		E546032C2DE5454400BD2824 /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = E546032B2DE5454400BD2824 /* ThemeKit */; };
 		E546032F2DE5455A00BD2824 /* TimerKit in Frameworks */ = {isa = PBXBuildFile; productRef = E546032E2DE5455A00BD2824 /* TimerKit */; };
 		E5C99CB52DCA411600E33DB9 /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5C99CB42DCA411600E33DB9 /* ThemeKit */; };
+		E5C9A8F42DE56A670098E79D /* TimerKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5C9A8F32DE56A670098E79D /* TimerKit */; };
+		E5C9A8F72DE56A840098E79D /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5C9A8F62DE56A840098E79D /* ThemeKit */; };
+		E5C9A8F92DE59C0F0098E79D /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5C9A8F82DE59C0F0098E79D /* ThemeKit */; };
+		E5C9A8FC2DE59C220098E79D /* TranscriptionKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5C9A8FB2DE59C220098E79D /* TranscriptionKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +34,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E546032F2DE5455A00BD2824 /* TimerKit in Frameworks */,
+				E5C9A8FC2DE59C220098E79D /* TranscriptionKit in Frameworks */,
+				E5C9A8F42DE56A670098E79D /* TimerKit in Frameworks */,
+				E5C9A8F72DE56A840098E79D /* ThemeKit in Frameworks */,
 				E5C99CB52DCA411600E33DB9 /* ThemeKit in Frameworks */,
 				E546032C2DE5454400BD2824 /* ThemeKit in Frameworks */,
+				E5C9A8F92DE59C0F0098E79D /* ThemeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +85,10 @@
 				E5C99CB42DCA411600E33DB9 /* ThemeKit */,
 				E546032B2DE5454400BD2824 /* ThemeKit */,
 				E546032E2DE5455A00BD2824 /* TimerKit */,
+				E5C9A8F32DE56A670098E79D /* TimerKit */,
+				E5C9A8F62DE56A840098E79D /* ThemeKit */,
+				E5C9A8F82DE59C0F0098E79D /* ThemeKit */,
+				E5C9A8FB2DE59C220098E79D /* TranscriptionKit */,
 			);
 			productName = Scrumdinger;
 			productReference = E5EEF4922DCA317100D8D6F8 /* Scrumdinger.app */;
@@ -107,8 +119,9 @@
 			mainGroup = E5EEF4892DCA317100D8D6F8;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				E5C99CB32DCA411600E33DB9 /* XCLocalSwiftPackageReference "ThemeKit" */,
 				E546032D2DE5455A00BD2824 /* XCLocalSwiftPackageReference "TimerKit" */,
+				E5C9A8F52DE56A840098E79D /* XCLocalSwiftPackageReference "ThemeKit" */,
+				E5C9A8FA2DE59C220098E79D /* XCLocalSwiftPackageReference "TranscriptionKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E5EEF4932DCA317100D8D6F8 /* Products */;
@@ -269,6 +282,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,6 +311,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,9 +359,13 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = TimerKit;
 		};
-		E5C99CB32DCA411600E33DB9 /* XCLocalSwiftPackageReference "ThemeKit" */ = {
+		E5C9A8F52DE56A840098E79D /* XCLocalSwiftPackageReference "ThemeKit" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ThemeKit;
+		};
+		E5C9A8FA2DE59C220098E79D /* XCLocalSwiftPackageReference "TranscriptionKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = TranscriptionKit;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -360,6 +381,22 @@
 		E5C99CB42DCA411600E33DB9 /* ThemeKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ThemeKit;
+		};
+		E5C9A8F32DE56A670098E79D /* TimerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimerKit;
+		};
+		E5C9A8F62DE56A840098E79D /* ThemeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThemeKit;
+		};
+		E5C9A8F82DE59C0F0098E79D /* ThemeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThemeKit;
+		};
+		E5C9A8FB2DE59C220098E79D /* TranscriptionKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TranscriptionKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
