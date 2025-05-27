@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E546032C2DE5454400BD2824 /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = E546032B2DE5454400BD2824 /* ThemeKit */; };
+		E546032F2DE5455A00BD2824 /* TimerKit in Frameworks */ = {isa = PBXBuildFile; productRef = E546032E2DE5455A00BD2824 /* TimerKit */; };
 		E5C99CB52DCA411600E33DB9 /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5C99CB42DCA411600E33DB9 /* ThemeKit */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +29,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E546032F2DE5455A00BD2824 /* TimerKit in Frameworks */,
 				E5C99CB52DCA411600E33DB9 /* ThemeKit in Frameworks */,
+				E546032C2DE5454400BD2824 /* ThemeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +75,8 @@
 			name = Scrumdinger;
 			packageProductDependencies = (
 				E5C99CB42DCA411600E33DB9 /* ThemeKit */,
+				E546032B2DE5454400BD2824 /* ThemeKit */,
+				E546032E2DE5455A00BD2824 /* TimerKit */,
 			);
 			productName = Scrumdinger;
 			productReference = E5EEF4922DCA317100D8D6F8 /* Scrumdinger.app */;
@@ -102,6 +108,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				E5C99CB32DCA411600E33DB9 /* XCLocalSwiftPackageReference "ThemeKit" */,
+				E546032D2DE5455A00BD2824 /* XCLocalSwiftPackageReference "TimerKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E5EEF4932DCA317100D8D6F8 /* Products */;
@@ -331,6 +338,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
+		E546032D2DE5455A00BD2824 /* XCLocalSwiftPackageReference "TimerKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = TimerKit;
+		};
 		E5C99CB32DCA411600E33DB9 /* XCLocalSwiftPackageReference "ThemeKit" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ThemeKit;
@@ -338,6 +349,14 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E546032B2DE5454400BD2824 /* ThemeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThemeKit;
+		};
+		E546032E2DE5455A00BD2824 /* TimerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimerKit;
+		};
 		E5C99CB42DCA411600E33DB9 /* ThemeKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ThemeKit;
